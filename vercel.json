@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "builds": [
+    {
+      "src": "package.json",
+      "use": "@vercel/next",
+      "config": {
+        "nodeVersion": "20.x"
+      }
+    }
+  ],
+  "framework": "nextjs",
+  "outputDirectory": ".next",
+  "installCommand": "yarn install",
+  "buildCommand": "next build",
+  "devCommand": "next dev"
+}
