@@ -1,0 +1,71 @@
+import { ProjectsSectionType } from '@/lib/types/sections';
+import { getId } from '@/lib/utils/helper';
+
+export const projectsSection: ProjectsSectionType = {
+  title: 'my projects',
+  projects: [
+    {
+      id: getId(),
+      name: 'Wild and Free',
+      url: 'https://www.wildandfree.us/',
+      repo: 'https://github.com/Arbab-Mustafa/Filtering_Searching-Component',
+      img: '/1.png',
+      year: 2023,
+      tags: ['React', 'TypeScript', 'Tailwind'],
+    },
+    {
+      id: getId(),
+      name: 'remotive jobs',
+      url: 'https://remotive-jobs.vercel.app/',
+      repo: 'https://github.com/Arbab-Mustafa',
+      img: 'https://user-images.githubusercontent.com/68834718/189035104-aa71647e-33e4-442a-a2f9-c0d50bba2db1.png',
+      year: 2022,
+      tags: ['Nextjs', 'Sass'],
+    },
+    {
+      id: getId(),
+      name: 'Snapgram',
+      url: 'https://react-social-mediaapp.vercel.app/',
+      repo: 'https://github.com/Arbab-Mustafa/Social-media-App',
+      img: '/2.png',
+      year: 2022,
+      tags: ['React', 'Sass'],
+    },
+    {
+      id: getId(),
+      name: 'E-commerce website',
+      url: 'https://ecommercearbab.netlify.app/',
+      repo: 'https://github.com/Arbab-Mustafa/E-commerce_Reactjs',
+      img: '/3.png',
+      year: 2023,
+      tags: ['React', 'Tailwind Css'],
+    },
+    {
+      id: getId(),
+      name: 'Bistro Boss',
+      url: 'https://bistro-boss-6004a.web.app/',
+      repo: 'https://github.com/Arbab-Mustafa',
+      img: '/4.png',
+      year: 2023,
+      tags: ['React', 'nodejs', 'express', 'MongoDB'],
+    },
+    {
+      id: getId(),
+      name: 'SUAY RESORTS',
+      url: 'https://suay-resort.netlify.app/',
+      repo: 'https://github.com/Arbab-Mustafa',
+      img: '/5.png',
+      year: 2024,
+      tags: ['React', 'TypeScript', 'Tailwind'],
+    },
+    {
+      id: getId(),
+      name: 'covid-19 Management System',
+      url: 'https://covid-hospital-operations.com/home',
+      repo: 'https://github.com/Arbab-Mustafa',
+      year: 2021,
+      tags: ['React', 'TypeScript', 'Tailwind'],
+      img: '/6.png',
+    },
+  ],
+};
